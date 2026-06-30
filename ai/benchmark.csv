@@ -1,0 +1,4 @@
+index,Metric,Keras,TensorFlow Lite
+0,Model Size (MB),9.48,3.84
+1,Inference Time (ms),107.37,2.68
+2,FPS,9.31,372.86
