@@ -8,4 +8,5 @@ sealed class Screen(val route: String) {
 
     data object Dashboard : Screen("dashboard")
 
+    data object DriverMonitoring : Screen("driver_monitoring")
 }

@@ -27,13 +27,12 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 @Composable
 fun LoginScreen(
     navController: NavController,
-//    viewModel: LoginViewModel = viewModel(),
+    viewModel: LoginViewModel = viewModel(),
     isLoading: Boolean = false,
     onLogin: (String, String) -> Unit,
     onSignUp: () -> Unit
 
 ) {
-
     var email by remember {
         mutableStateOf("")
     }
