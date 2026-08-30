@@ -40,12 +40,24 @@ android {
 }
 
 dependencies {
+    implementation("com.google.mediapipe:tasks-vision:0.10.14")
+    // TensorFlow Lite
+    implementation("org.tensorflow:tensorflow-lite:2.17.0")
+
+
+    //Permission
     implementation("com.google.accompanist:accompanist-permissions:0.37.3")
+
     // CameraX
     implementation("androidx.camera:camera-core:1.4.2")
     implementation("androidx.camera:camera-camera2:1.4.2")
     implementation("androidx.camera:camera-lifecycle:1.4.2")
     implementation("androidx.camera:camera-view:1.4.2")
+
+    implementation("androidx.exifinterface:exifinterface:1.3.7")
+
+    implementation("commons-io:commons-io:2.18.0")
+
 
 // CameraX Extensions (Future)
     implementation("androidx.camera:camera-extensions:1.4.2")
